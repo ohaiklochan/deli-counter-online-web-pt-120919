@@ -1,7 +1,7 @@
 # Write your code here.
 
-def line(array)
-  if array.size == 0
+def line(katz_deli)
+  if katz_deli.empty? == true
     puts "The line is currently empty."
   else array.size > 0
     puts "The line is currently:"
