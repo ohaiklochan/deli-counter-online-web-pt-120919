@@ -5,7 +5,7 @@ def line(katz_deli)
     puts "The line is currently empty."
   else 
     position = 1
-    katz_deli.each do |person|
+    katz_deli.each.with_index do |person, position|
       places << "#{position}. #{person}."
       position += 1
     end
