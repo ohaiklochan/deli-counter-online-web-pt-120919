@@ -7,7 +7,8 @@ def line(katz_deli)
     position = 1
     katz_deli.each do |person|
       places << "#{position}. #{person}."
-      
+      position += 1
+
 end
 
 def take_a_number(array, name)
