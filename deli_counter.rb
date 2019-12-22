@@ -6,7 +6,7 @@ def line(katz_deli)
   else katz_deli.empty? == false
     position = 1
     katz_deli.each do |person|
-      
+      places << "#{position}. #{name}."
 end
 
 def take_a_number(array, name)
