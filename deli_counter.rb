@@ -3,10 +3,6 @@
 def line(array)
   if line.size == 0
     puts "The line is currently empty."
-  elsif line.size > 0
-    array.map do |value, index|
-    puts "The line is currently: #{index+1}.#{value}."
-  end
 end
 
 def take_a_number(array, name)
