@@ -23,4 +23,4 @@ def now_serving(array)
   if deli.empty?
     puts "There is nobody waiting to be served!"
   else
-    
+    puts "Currently "
