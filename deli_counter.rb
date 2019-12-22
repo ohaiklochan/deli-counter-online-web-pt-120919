@@ -4,7 +4,7 @@ def line(array)
   if line.size == 0
     puts "The line is currently empty."
   elsif line.size > 0
-    puts "The line is currently"
+    puts "The line is currently: #{"
 end
 
 def take_a_number(array, name)
