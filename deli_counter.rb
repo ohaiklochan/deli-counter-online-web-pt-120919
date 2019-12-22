@@ -5,7 +5,7 @@ def line(katz_deli)
     puts "The line is currently empty."
   else katz_deli.empty? == false
     position = 1
-    katz_deli.each do |position|
+    katz_deli.each do |person|
       
 end
 
