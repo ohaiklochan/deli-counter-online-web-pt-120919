@@ -3,6 +3,8 @@
 def line(array)
   if array == 0
     puts "The line is currently empty."
+  else array > 0
+    puts "The line is currently:"
 end
 
 def take_a_number(array, name)
