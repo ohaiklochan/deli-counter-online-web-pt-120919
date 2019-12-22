@@ -1,7 +1,9 @@
 # Write your code here.
 
-def line(katz_deli)
-  puts "The line is currently empty."
+def line(array)
+  if line.size == 0
+    puts "The line is currently empty."
+  elsif line.size 
 end
 
 def take_a_number(array, name)
