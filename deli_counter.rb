@@ -5,7 +5,8 @@ def line(katz_deli)
     puts "The line is currently empty."
   else katz_deli.empty? == false
     position = 1
-    array    
+    katz_deli.each do |position|
+      
 end
 
 def take_a_number(array, name)
