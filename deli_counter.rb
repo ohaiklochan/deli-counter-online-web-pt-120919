@@ -8,7 +8,8 @@ def line(katz_deli)
     katz_deli.each do |person|
       places << "#{position}. #{person}."
       position += 1
-
+    end
+    puts "The line is currently: #{"
 end
 
 def take_a_number(array, name)
