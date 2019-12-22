@@ -1,10 +1,9 @@
 # Write your code here.
 
 def line(array)
+  if array.empty? == true
     puts "The line is currently empty."
 end
-
-def 
 
 def take_a_number(array, name)
   array.push (name)
