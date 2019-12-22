@@ -9,6 +9,6 @@ def line(katz_deli)
       places << "#{position}. #{person}."
       position += 1
     end
-    puts 
+    puts "The line is currently: "
 end
 
