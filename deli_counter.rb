@@ -9,7 +9,7 @@ def line(katz_deli)
       places << "#{position}. #{person}."
       position += 1
     end
-    puts "The line is currently: #{position.join}"
+    puts "The line is currently: #{position.join(" ")}."
 end
 
 def take_a_number(array, name)
